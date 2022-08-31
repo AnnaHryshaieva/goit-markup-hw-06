@@ -656,6 +656,7 @@ img {
   font-size: 12px;
   letter-spacing: 0.01em;
   color: #757575;
+  margin-bottom: 20px;
 }
 .modal-icon {
   position: absolute;
@@ -688,8 +689,6 @@ img {
   resize: none;
   height: 120px;
   padding: 12px 16px;
-  margin-top: 4px;
-  margin-bottom: 20px;
   outline-color: transparent;
   transition: outline 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -765,13 +764,15 @@ img {
   visibility: hidden;
   pointer-events: none;
 }
+.footer-field{
+  margin-right: 12px;
+}
 .input {
   width: 358px;
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
-  margin-right: 12px;
   background-color: transparent;
   padding: 16px;
   color: rgba(255, 255, 255, 0.6);
@@ -779,6 +780,10 @@ img {
 .sub-input {
   display: flex;
   justify-content: center;
+}
+.subscription-container{
+  display: flex;
+  flex-direction: column;
 }
 .subscription {
   font-weight: 700;
